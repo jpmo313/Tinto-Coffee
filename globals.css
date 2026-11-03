@@ -1,0 +1,42 @@
+/* ==========================================================================
+   1. VARIABLES DE MARCA (Design Tokens de TINTICOFFEE)
+   ========================================================================== */
+:root {
+  /* Paleta oficial de TINTICOFFEE */
+  --color-marble-white: #F3F2EE;  /* Blanco mármol: Fondo principal de la página */
+  --color-dark-green:   #192E23;  /* Verde oscuro: Textos principales, Navbar y Footer */
+  --color-deep-green:   #2F4F3E;  /* Verde profundo: Botones principales y secciones destacadas */
+  --color-olive-green:  #7A8B6A;  /* Verde oliva: Subtítulos, bordes suaves y etiquetas */
+  --color-coffee-roast: #6B4E2E;  /* Café tostado: Detalles de producto y niveles de tueste */
+  --color-old-gold:     #B89B5E;  /* Dorado viejo: Acentos premium, bordes VIP y estrellas */
+  --color-cherry-red:   #7C060F;  /* Dark red: Cereza de café, alertas y lotes limitados */
+
+  /* Tipografías (Fuentes) */
+  --font-heading: 'Playfair Display', Georgia, serif; /* Títulos elegantes con serifas */
+  --font-body:    'Inter', system-ui, sans-serif;     /* Texto de lectura limpia y precios */
+}
+
+/* ==========================================================================
+   2. RESETEO BÁSICO (Normalización del navegador)
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   3. ESTILOS BASE DEL CUERPO DE LA PÁGINA (Body & Tipografía)
+   ========================================================================== */
+body {
+  background-color: var(--color-marble-white);
+  color: var(--color-dark-green);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
